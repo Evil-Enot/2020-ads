@@ -9,9 +9,9 @@ public class part2 {
         String line = in.next();
 
         for (int i = 0; i < line.length(); i++){
-            if (line.charAt(i) ==  40){
+            if (line.charAt(i) ==  '('){
                 count++;
-            } else if (line.charAt(i) == 41){
+            } else if (line.charAt(i) == ')'){
                 count--;
                 if (count < 0){
                     break;
