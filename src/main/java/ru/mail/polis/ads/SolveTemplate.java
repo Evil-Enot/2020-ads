@@ -49,4 +49,5 @@ public final class SolveTemplate {
             solve(in, out);
         }
     }
+
 }
